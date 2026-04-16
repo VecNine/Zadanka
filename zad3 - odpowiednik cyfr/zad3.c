@@ -25,7 +25,7 @@ void change_files(char name[]) {
         else if (znak == '2') write(cel, "dwa", 3);
         else if (znak == '3') write(cel, "trzy", 4);
         else if (znak == '4') write(cel, "cztery", 6);
-        else if (znak == '5') write(cel, "pięć", 5);
+        else if (znak == '5') write(cel, "pięć", 6);
         else if (znak == '6') write(cel, "sześć", 7);
         else if (znak == '7') write(cel, "siedem", 6);
         else if (znak == '8') write(cel, "osiem", 5);
@@ -38,7 +38,7 @@ void change_files(char name[]) {
 }
 
 int main() {
-    DIR* sciezka = opendir("/Users/vecnine/Desktop/programowanie/c projects/systemy_operacyjne_2/zad3");
+    DIR* sciezka = opendir("/Users/vecnine/Desktop/programowanie/c projects/Zadanka/zad3 - odpowiednik cyfr");
     if (sciezka == NULL) return 1;
 
     struct dirent* element;

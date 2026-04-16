@@ -30,8 +30,8 @@ void change_file() {
         write(cel, &wr, 1);
     }
 
-    rename("text_cel.txt", "text.txt");
-
     close(zrodlo);
     close(cel);
+
+    rename("text_cel.txt", "text.txt");
 }

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
-#include <arm/signal.h>
+#include <signal.h>
 #include <sys/signal.h>
 
 volatile sig_atomic_t works = 1;
